@@ -6,3 +6,6 @@ startCommand = "bash start.sh"
 
 [build.nixpacks]
 language = "java"
+
+[build.nixpacks.phases.setup]
+nixPkgs = ["curl", "jdk"]
