@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["curl", "jdk"]
+
+[phases.build]
+cmds = []
+
+[phases.start]
+cmd = "bash start.sh"
